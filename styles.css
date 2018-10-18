@@ -1,10 +1,16 @@
 body {
     background: #e2e1e0;
     text-align: center;
+    width: 100%;
+    overflow-x: hidden;
 }
 
+/*************************************************
+***** 1 - TITLE
+**************************************************/
+
 #title {
-    width: 100vw;
+    width: 100%;
     height: 10vh;
     font-size: 6vmin;
     font-family: 'Roboto', sans-serif;
@@ -14,16 +20,24 @@ body {
     font-weight: 800;
 }
 
+/*************************************************
+***** 2 - MATERIAL DESIGN LIKE CARD
+**************************************************/
+
 .card {
     background: #fff;
     border-radius: 0.5em;
-    width: 90vw;
+    width: 80%;
     margin: 0 auto;
 }
 
 .card:hover {
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
+
+/*************************************************
+***** 3 - IMAGE CARD
+**************************************************/
 
 #image {
     max-width: 80%;
@@ -39,6 +53,10 @@ body {
     padding: 20px;
 }
 
+/*************************************************
+***** 4 - DESCRIPTION TEXT
+**************************************************/
+
 #tribute-info {
     padding: 30px;
     text-align: justify;
@@ -53,9 +71,13 @@ body {
     line-height: 1.35em;
 }
 
+/*************************************************
+***** 4 - FOOTER & LINK
+**************************************************/
+
 #footer {
     padding: 30px;
-    width: 100vw;
+    width: 100%;
     border-radius: 0px;
 }
 
